@@ -8,7 +8,8 @@ define([
         constructor: function(div, options){
             console.log('constructor called');
             console.dir(this);
-            this.navigator = new Navigation(this);
+            var that = this;
+            this.navigator = new Navigation(that);
         }
     });
 });
