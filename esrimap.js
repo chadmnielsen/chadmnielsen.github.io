@@ -11,5 +11,5 @@ require(["./Map.js", "esri/toolbars/navigation", "dojo/domReady!"], function(Map
   console.log(Navigation.PAN);
   console.log(Navigation.ZOOM_IN);
   console.log(Navigation.ZOOM_OUT);
-  map.navigator.activate(Navigation.PAN);
+  map.navigator.activate(Navigation.ZOOM_IN);
 });
