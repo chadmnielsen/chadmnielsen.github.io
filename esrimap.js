@@ -7,5 +7,5 @@ require(["./Map.js", "dojo/domReady!"], function(Map) {
     zoom: 13
   });
   console.dir(map);
-  map.navigator.activate(map.navigator.PAN);
+  map.navigator.activate("PAN");
 });
