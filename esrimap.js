@@ -7,7 +7,7 @@ require(["esri/map", "esri/toolbars/navigation", "dojo/domReady!"], function(Map
     zoom: 13
   });
   console.dir(map);
-  console.log(map.navigator.isFirstExtent());
+  //console.log(map.navigator.isFirstExtent());
   console.log(Navigation.PAN);
   console.log(Navigation.ZOOM_IN);
   console.log(Navigation.ZOOM_OUT);
