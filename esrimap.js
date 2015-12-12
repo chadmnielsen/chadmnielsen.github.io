@@ -8,5 +8,8 @@ require(["./Map.js", "esri/toolbars/navigation", "dojo/domReady!"], function(Map
   });
   console.dir(map);
   console.log(map.navigator.isFirstExtent());
+  console.log(Navigation.PAN);
+  console.log(Navigation.ZOOM_IN);
+  console.log(Navigation.ZOOM_OUT);
   map.navigator.activate(Navigation.PAN);
 });
